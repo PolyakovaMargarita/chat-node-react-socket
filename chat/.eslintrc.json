@@ -1,0 +1,48 @@
+{
+  "extends": ["react-app"],
+  "rules": {
+    "semi": "error",
+    "key-spacing": ["error", {
+      "beforeColon": false,
+      "afterColon": true,
+      "mode": "strict"
+  }],
+    "indent": ["error", 2],
+    "keyword-spacing": [
+      "error",
+      {
+          "before": true,
+          "after": true
+      }
+  ],
+  "space-before-function-paren": [
+    "error",
+    {
+        "anonymous": "ignore",
+        "named": "never",
+        "asyncArrow": "always"
+    }
+],
+  "space-in-parens": [
+    "error",
+    "never"
+],
+    "quotes": ["error", "double"],
+    "jsx-quotes": ["error", "prefer-double"],
+    "arrow-spacing": ["error", { "before": true, "after": true }],
+    "computed-property-spacing": ["error", "always"],
+    "arrow-body-style": ["error", "as-needed"],
+    "eqeqeq": ["error", "always"],
+    "array-bracket-newline": ["error", { "minItems": 3 }],
+    "block-spacing": ["error", "always"],
+    "template-curly-spacing": ["error", "always"],
+    "no-multi-spaces": "error",
+    "brace-style": "error",
+    "comma-dangle": ["error", "never"],
+    "comma-spacing": ["error", { "before": false, "after": true }],
+    "no-multiple-empty-lines": "error"
+  },
+  "plugins": [
+    "react"
+  ]
+}

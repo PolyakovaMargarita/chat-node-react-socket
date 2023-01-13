@@ -1,0 +1,54 @@
+.app {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 30%;
+    margin-top: 150px;
+    height: 150px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.input {
+    height: 25%;
+    border: 3px solid rgb(243, 185, 185);
+    padding-left: 10px;
+    border-radius: 20%;
+    box-shadow: 3px 3px 2px rgb(241, 158, 158);
+}
+.input:focus-within {
+    outline: 0;
+    outline-offset: 0;
+    border: 3px solid rgb(247, 110, 110);
+    box-shadow: none; 
+}
+
+.input:hover {
+    background-color: rgb(215, 215, 245);
+}
+
+.buttonItem {
+    width: 100%;
+    height: 25%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button {
+    width: 50%;
+    border: 3px solid rgb(243, 185, 185);
+    border-radius: 10%;
+}
+
+.button:hover {
+    border: 0px solid rgb(243, 185, 185);
+    background-color: rgb(169, 169, 250);
+}
